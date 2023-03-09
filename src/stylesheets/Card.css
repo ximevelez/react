@@ -1,0 +1,108 @@
+body{
+    background-color:#0d1a2d;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url(../fonts/Outfit-VariableFont_wght.ttf);
+    }
+}
+
+.container{
+    background-color: #14273f;
+    width: 350px;
+    height: 630px;
+    border-radius: 1em;
+}
+.equilibrium{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 16px;
+}
+.equilibrium img{
+    border-radius: 1em;
+    margin-bottom: 15px;
+}
+.info{
+    font-family: 'Outfit';
+    margin: 3px 25px 9px;
+    font-size: 18px;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+}
+.icono1{
+    display: flex;
+}
+.icono2{
+    display: flex;
+}
+.color{
+    color: #33dbd6;
+    margin: 17px;
+}
+.linea{
+    margin: 3px 25px 9px;
+    background-color: white;
+    width: 300px;
+    height: 1px;
+}
+.info-avatar{
+    display: flex;
+    font-family: 'Outfit';
+    padding-top: 1rem;
+}
+.avatar{
+    width: 45px;
+    height: 45px;
+    margin: 1px 20px;
+    border:  2px solid white;
+    border-radius: 50%;
+}
+.reloj{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.icono{
+    margin-top: 15px;
+    width: 20px;
+    height: 30px;
+}
+
+.creation{
+    color: rgba(255, 255, 255, 0.726);
+    padding-right: 0.3rem;
+    padding-top: 13px;
+}
+
+.jules{
+    padding-top: 13px;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+
+}
+.c1{
+    margin: 4rem;
+}
+.c2{
+    margin: 4rem;
+}
+.c3{
+    margin: 4rem;
+}
+.img-principal{
+    margin-top: 15px;
+}
+
+.text-reloj{
+    padding-top: 17px;
+}
+
